@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BAD3654-20E0-4792-9494-9F676311444E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicknameGenerator", "src\NicknameGenerator\NicknameGenerator.csproj", "{0F877E01-5A17-4DAB-AD67-60F8608A4758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CC372102-A582-4187-86F8-6DC5A5D854D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicknameGenerator.Tests", "tests\NicknameGenerator.Tests\NicknameGenerator.Tests.csproj", "{D7FB4A07-0A57-4F34-94C9-CD203A556C29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{D105B1A0-2090-4BBC-812D-8516662D7931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicknameGenerator.Benchmark", "benchmarks\NicknameGenerator.Benchmark\NicknameGenerator.Benchmark.csproj", "{14673037-72EC-411F-B86C-F64390550264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E6FFFABE-5844-45AA-AA49-FE829F6DA94F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicknameGenerator.Sample", "samples\NicknameGenerator.Sample\NicknameGenerator.Sample.csproj", "{F49FBA70-88A8-4D9E-9304-657E2076CEC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F877E01-5A17-4DAB-AD67-60F8608A4758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F877E01-5A17-4DAB-AD67-60F8608A4758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F877E01-5A17-4DAB-AD67-60F8608A4758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F877E01-5A17-4DAB-AD67-60F8608A4758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FB4A07-0A57-4F34-94C9-CD203A556C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FB4A07-0A57-4F34-94C9-CD203A556C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FB4A07-0A57-4F34-94C9-CD203A556C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FB4A07-0A57-4F34-94C9-CD203A556C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14673037-72EC-411F-B86C-F64390550264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14673037-72EC-411F-B86C-F64390550264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14673037-72EC-411F-B86C-F64390550264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14673037-72EC-411F-B86C-F64390550264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49FBA70-88A8-4D9E-9304-657E2076CEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49FBA70-88A8-4D9E-9304-657E2076CEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49FBA70-88A8-4D9E-9304-657E2076CEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49FBA70-88A8-4D9E-9304-657E2076CEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F877E01-5A17-4DAB-AD67-60F8608A4758} = {8BAD3654-20E0-4792-9494-9F676311444E}
+		{D7FB4A07-0A57-4F34-94C9-CD203A556C29} = {CC372102-A582-4187-86F8-6DC5A5D854D6}
+		{14673037-72EC-411F-B86C-F64390550264} = {D105B1A0-2090-4BBC-812D-8516662D7931}
+		{F49FBA70-88A8-4D9E-9304-657E2076CEC6} = {E6FFFABE-5844-45AA-AA49-FE829F6DA94F}
+	EndGlobalSection
+EndGlobal
